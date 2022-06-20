@@ -36,10 +36,8 @@ def twoSum2(nums, target):
   hashMap = {}
   for index in range(len(nums)):
     hashMap[nums[index]] = index
-    print(hashMap)
   for index in range(len(nums)):
     compliment = target - nums[index]
-    print(compliment)
     if compliment in hashMap and hashMap[compliment] != index:
       return [index, hashMap[compliment]]
 
@@ -50,7 +48,7 @@ def twoSum3(nums, target):
   for index in range(len(nums)):
     compliment = target - nums[index]
     if compliment in hashMap:
-      return [index, hashMap[compliment]]
+      return [ hashMap[compliment], index]
     hashMap[nums[index]]=index
 
 
