@@ -86,3 +86,5 @@ const isValid = (s) => {
 };
 
 console.log(isValid(s));
+
+module.exports = isValid;

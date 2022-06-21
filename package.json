@@ -1,0 +1,23 @@
+{
+  "name": "algos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RickRieger/algos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RickRieger/algos/issues"
+  },
+  "homepage": "https://github.com/RickRieger/algos#readme",
+  "devDependencies": {
+    "jest": "^28.1.1"
+  }
+}
