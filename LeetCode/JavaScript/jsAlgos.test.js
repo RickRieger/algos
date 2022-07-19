@@ -4,11 +4,16 @@ const twoSum2 = require('./twoSum');
 const twoSum3 = require('./twoSum');
 const twoSum3alt = require('./twoSum');
 const isValid = require('./validParentheses');
-
+const removeElement = require('./removeElement');
 // removeDuplicates
 
 test('remove duplicates in array and return length of unique numbers in the array', () => {
   expect(removeDuplicates([1, 2, 2, 3, 4, 4, 5, 6, 8, 8, 9])).toEqual(8);
+});
+// removeElement
+
+test('remove elements in array that match target val, and return length of numbers in the array', () => {
+  expect(removeElement([3, 2, 2, 3], 3)).toBe(2);
 });
 
 // twoSum
