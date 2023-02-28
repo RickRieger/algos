@@ -7,7 +7,7 @@
 let myArr = [3, 2, -1, 10, 11, 13, 7, 22];
 
 const selectionSort = (arr) => {
-  for (let i = 1; i < arr.length; i++) {
+  for (let i = 0; i < arr.length; i++) {
     let smallestNumIndex = i;
     for (let j = i + 1; j < arr.length; j++) {
       if (arr[j] < arr[smallestNumIndex]) {
